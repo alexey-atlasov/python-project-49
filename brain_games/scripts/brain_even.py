@@ -14,8 +14,7 @@ if __name__ == '__main__':
 print('Answer "yes" if the number is even, otherwise answer "no".')
 count = 0
 while count != 3:
-    print('Question: ', end='')
-    q = input()
+    q = input('Question: ')
     answer = input('Your answer: ')
     if int(q) % 2 == 0 and answer == 'yes' :
         print ('Correct!')
